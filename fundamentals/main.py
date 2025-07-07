@@ -51,7 +51,7 @@ while True:
                 
         elif option == "S":
             print("================ BANK STATEMENT ================\n")
-            print("Não foram realizadas movimentações.\n" if not statement else statement)
+            print("No transactions were made.\n" if not statement else statement)
             print(f"Balance: ${balance:.2f}\n")
             print("==========================================")
             
