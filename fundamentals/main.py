@@ -39,7 +39,7 @@ while True:
                 amount = float(input("How much would you like to withdrawl?\n$"))
                 
                 if amount > limit:
-                    print(f"You can only withdrawl up to ${limit} a time.")
+                    print(f"You can only withdrawl up to ${limit} at a time.")
                 elif amount > balance:
                     print("You don't have enough balance. Please try again.")
                 else:
